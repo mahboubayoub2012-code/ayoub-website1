@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayoub Website | تصميم مواقع</title>
+
+  <!-- خط عربي -->
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&display=swap" rel="stylesheet">
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:'Tajawal', sans-serif;
+    }
+
+    body{
+      background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+      color:#fff;
+      min-height:100vh;
+    }
+
+    header{
+      text-align:center;
+      padding:50px 20px;
+    }
+
+    header h1{
+      font-size:42px;
+      font-weight:900;
+      margin-bottom:10px;
+    }
+
+    header p{
+      font-size:18px;
+      opacity:0.9;
+    }
+
+    .container{
+      width:90%;
+      max-width:1100px;
+      margin:auto;
+    }
+
+    .services{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:25px;
+      margin:50px 0;
+    }
+
+    .card{
+      background:rgba(255,255,255,0.1);
+      border-radius:20px;
+      padding:30px;
+      text-align:center;
+      transition:0.3s;
+      backdrop-filter:blur(10px);
+    }
+
+    .card:hover{
+      transform:translateY(-10px);
+      background:rgba(255,255,255,0.18);
+    }
+
+    .card h3{
+      font-size:22px;
+      margin-bottom:10px;
+    }
+
+    .card p{
+      font-size:15px;
+      line-height:1.8;
+      opacity:0.9;
+    }
+
+    .cta{
+      text-align:center;
+      margin:60px 0;
+    }
+
+    .cta a{
+      display:inline-block;
+      padding:15px 40px;
+      background:#00c6ff;
+      color:#000;
+      font-weight:700;
+      border-radius:30px;
+      text-decoration:none;
+      transition:0.3s;
+    }
+
+    .cta a:hover{
+      background:#fff;
+    }
+
+    footer{
+      text-align:center;
+      padding:30px;
+      font-size:14px;
+      opacity:0.8;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Ayoub Website</h1>
+    <p>تصميم مواقع احترافية – سريعة – عصرية</p>
+  </header>
+
+  <div class="container">
+
+    <section class="services">
+      <div class="card">
+        <h3>🌐 مواقع HTML</h3>
+        <p>تصميم مواقع ثابتة أنيقة وسريعة ومتجاوبة مع جميع الشاشات.</p>
+      </div>
+
+      <div class="card">
+        <h3>📱 تصميم متجاوب</h3>
+        <p>موقعك يظهر بشكل مثالي على الهاتف، التابلت، والكمبيوتر.</p>
+      </div>
+
+      <div class="card">
+        <h3>🚀 سرعة وأداء</h3>
+        <p>كود نظيف وخفيف لضمان سرعة تحميل ممتازة.</p>
+      </div>
+
+      <div class="card">
+        <h3>🎨 تصميم فاخر</h3>
+        <p>ستايل عصري يليق بالزبائن ويعطي انطباع احترافي.</p>
+      </div>
+    </section>
+
+    <div class="cta">
+      <a href="https://github.com/mahboubayoub2012-code" target="_blank">
+        شاهد أعمالي على GitHub
+      </a>
+    </div>
+
+  </div>
+
+  <footer>
+    © 2026 – Ayoub Website | جميع الحقوق محفوظة
+  </footer>
+
+</body>
+</html>
