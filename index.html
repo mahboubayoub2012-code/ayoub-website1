@@ -1,145 +1,151 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ayoub Website</title>
 
-  <!-- SEO -->
-  <title>Ayoub | تصميم مواقع احترافية</title>
-  <meta name="description" content="Ayoub - مصمم مواقع HTML و CSS. مواقع احترافية وسريعة ومتجاوبة مع جميع الشاشات.">
-  <meta name="keywords" content="تصميم مواقع, HTML, CSS, Ayoub, Web Design">
-  <meta name="author" content="Ayoub Mahboub">
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&display=swap" rel="stylesheet">
 
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Tajawal', sans-serif;
+}
 
-  <!-- Favicon -->
-  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1006/1006771.png">
+body{
+  background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+  color:#fff;
+  line-height:1.8;
+}
 
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Tajawal', sans-serif;
-    }
+/* Header */
+header{
+  padding:50px 20px;
+  text-align:center;
+}
 
-    body {
-      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-      color: #fff;
-      line-height: 1.8;
-    }
+.logo{
+  font-size:50px;
+}
 
-    header {
-      text-align: center;
-      padding: 60px 20px;
-    }
+header h1{
+  font-size:36px;
+  font-weight:900;
+  margin-top:10px;
+}
 
-    header img {
-      width: 120px;
-      margin-bottom: 20px;
-    }
+header p{
+  opacity:.9;
+  margin-top:10px;
+}
 
-    header h1 {
-      font-size: 42px;
-      font-weight: 900;
-    }
+/* Container */
+.container{
+  max-width:1100px;
+  margin:auto;
+  padding:20px;
+}
 
-    header p {
-      font-size: 18px;
-      opacity: 0.9;
-    }
+/* Cards */
+.card{
+  background:rgba(255,255,255,0.08);
+  border-radius:18px;
+  padding:30px;
+  margin-bottom:30px;
+  transition:.3s;
+}
 
-    section {
-      max-width: 1100px;
-      margin: auto;
-      padding: 40px 20px;
-    }
+.card:hover{
+  transform:translateY(-6px);
+  background:rgba(255,255,255,0.12);
+}
 
-    .cards {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 25px;
-    }
+.card h2{
+  color:#00eaff;
+  margin-bottom:15px;
+}
 
-    .card {
-      background: rgba(255,255,255,0.08);
-      padding: 30px;
-      border-radius: 16px;
-      transition: 0.3s;
-    }
+.card ul{
+  list-style:none;
+}
 
-    .card:hover {
-      transform: translateY(-8px);
-      background: rgba(255,255,255,0.15);
-    }
+.card ul li{
+  padding:8px 0;
+  font-size:18px;
+}
 
-    .card h3 {
-      margin-bottom: 10px;
-      color: #00eaff;
-    }
+/* CTA */
+.cta{
+  text-align:center;
+  margin:50px 0;
+}
 
-    .cta {
-      text-align: center;
-      margin: 60px 0;
-    }
+.cta a{
+  display:inline-block;
+  padding:16px 35px;
+  background:#00eaff;
+  color:#000;
+  border-radius:40px;
+  text-decoration:none;
+  font-size:18px;
+  font-weight:700;
+  transition:.3s;
+}
 
-    .cta a {
-      background: #00eaff;
-      color: #000;
-      padding: 15px 40px;
-      border-radius: 50px;
-      text-decoration: none;
-      font-weight: bold;
-      transition: 0.3s;
-    }
+.cta a:hover{
+  background:#fff;
+}
 
-    .cta a:hover {
-      background: #fff;
-    }
-
-    footer {
-      text-align: center;
-      padding: 25px;
-      font-size: 14px;
-      opacity: 0.7;
-    }
-  </style>
+/* Footer */
+footer{
+  text-align:center;
+  padding:25px;
+  opacity:.7;
+  font-size:14px;
+}
+</style>
 </head>
 
 <body>
 
 <header>
-  <img src="https://cdn-icons-png.flaticon.com/512/1006/1006771.png" alt="Logo">
-  <h1>Ayoub</h1>
-  <p>تصميم مواقع احترافية HTML & CSS</p>
+  <div class="logo">🚀</div>
+  <h1>Ayoub Website</h1>
+  <p>موقع احترافي لتصميم مواقع HTML & CSS</p>
 </header>
 
-<section>
-  <div class="cards">
-    <div class="card">
-      <h3>🚀 سرعة عالية</h3>
-      <p>مواقع خفيفة وسريعة التحميل.</p>
-    </div>
+<div class="container">
 
-    <div class="card">
-      <h3>📱 متجاوب</h3>
-      <p>يخدم على الهاتف، التابلت، والكمبيوتر.</p>
-    </div>
-
-    <div class="card">
-      <h3>🎨 تصميم عصري</h3>
-      <p>ستايل عصري وجذاب للزبائن.</p>
-    </div>
+  <div class="card">
+    <h2>💼 خدماتي</h2>
+    <ul>
+      <li>✔ تصميم مواقع احترافية</li>
+      <li>✔ مواقع شخصية وتجارية</li>
+      <li>✔ تصميم سريع ومتجاوب</li>
+      <li>✔ متوافق مع جميع المتصفحات</li>
+    </ul>
   </div>
-</section>
 
-<div class="cta">
-  <a href="mailto:example@gmail.com">📩 تواصل معي</a>
+  <div class="card">
+    <h2>📧 تواصل معي</h2>
+    <p>راسلني مباشرة عبر الإيميل:</p>
+    <p style="font-size:20px;font-weight:700;color:#00eaff;">
+      mahboubayoub@gmail.com
+    </p>
+  </div>
+
+  <div class="cta">
+    <a href="mailto:mahboubayoub@gmail.com">📨 راسلني الآن</a>
+  </div>
+
 </div>
 
 <footer>
-  © 2026 Ayoub – جميع الحقوق محفوظة
+  © 2026 Ayoub — جميع الحقوق محفوظة
 </footer>
 
 </body>
