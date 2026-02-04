@@ -3,10 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ayoub Web Studio</title>
+
+  <!-- SEO -->
+  <title>Ayoub | تصميم مواقع احترافية</title>
+  <meta name="description" content="Ayoub - مصمم مواقع HTML و CSS. مواقع احترافية وسريعة ومتجاوبة مع جميع الشاشات.">
+  <meta name="keywords" content="تصميم مواقع, HTML, CSS, Ayoub, Web Design">
+  <meta name="author" content="Ayoub Mahboub">
 
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1006/1006771.png">
 
   <style>
     * {
@@ -24,67 +32,69 @@
 
     header {
       text-align: center;
-      padding: 70px 20px;
+      padding: 60px 20px;
     }
 
-    .logo {
-      font-size: 48px;
+    header img {
+      width: 120px;
+      margin-bottom: 20px;
+    }
+
+    header h1 {
+      font-size: 42px;
       font-weight: 900;
-      color: #00eaff;
     }
 
     header p {
-      margin-top: 15px;
-      font-size: 20px;
+      font-size: 18px;
       opacity: 0.9;
     }
 
-    .container {
+    section {
       max-width: 1100px;
       margin: auto;
-      padding: 20px;
+      padding: 40px 20px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
     }
 
     .card {
       background: rgba(255,255,255,0.08);
       padding: 30px;
-      border-radius: 18px;
-      margin-bottom: 30px;
+      border-radius: 16px;
       transition: 0.3s;
     }
 
     .card:hover {
-      transform: translateY(-6px);
-      background: rgba(255,255,255,0.12);
+      transform: translateY(-8px);
+      background: rgba(255,255,255,0.15);
     }
 
-    h2 {
-      color: #00eaff;
-      margin-bottom: 15px;
-    }
-
-    ul {
-      list-style: none;
-    }
-
-    ul li {
+    .card h3 {
       margin-bottom: 10px;
-      font-size: 18px;
+      color: #00eaff;
     }
 
     .cta {
-      display: inline-block;
-      margin-top: 25px;
-      padding: 15px 35px;
+      text-align: center;
+      margin: 60px 0;
+    }
+
+    .cta a {
       background: #00eaff;
       color: #000;
-      border-radius: 30px;
-      font-weight: 700;
+      padding: 15px 40px;
+      border-radius: 50px;
       text-decoration: none;
+      font-weight: bold;
       transition: 0.3s;
     }
 
-    .cta:hover {
+    .cta a:hover {
       background: #fff;
     }
 
@@ -100,41 +110,36 @@
 <body>
 
 <header>
-  <div class="logo">🚀 Ayoub Web</div>
-  <p>تصميم مواقع احترافية وعصرية باستعمال HTML & CSS</p>
+  <img src="https://cdn-icons-png.flaticon.com/512/1006/1006771.png" alt="Logo">
+  <h1>Ayoub</h1>
+  <p>تصميم مواقع احترافية HTML & CSS</p>
 </header>
 
-<div class="container">
+<section>
+  <div class="cards">
+    <div class="card">
+      <h3>🚀 سرعة عالية</h3>
+      <p>مواقع خفيفة وسريعة التحميل.</p>
+    </div>
 
-  <div class="card">
-    <h2>👨‍💻 من أنا؟</h2>
-    <p>
-      أنا أيوب، مصمم مواقع أقدّم صفحات سريعة، أنيقة ومتجاوبة مع جميع الأجهزة.
-      هذا الموقع مستضاف مجانًا على GitHub Pages.
-    </p>
+    <div class="card">
+      <h3>📱 متجاوب</h3>
+      <p>يخدم على الهاتف، التابلت، والكمبيوتر.</p>
+    </div>
+
+    <div class="card">
+      <h3>🎨 تصميم عصري</h3>
+      <p>ستايل عصري وجذاب للزبائن.</p>
+    </div>
   </div>
+</section>
 
-  <div class="card">
-    <h2>⚙️ خدماتي</h2>
-    <ul>
-      <li>✔ تصميم مواقع HTML / CSS</li>
-      <li>✔ صفحات شخصية وواجهات احترافية</li>
-      <li>✔ مواقع خفيفة وسريعة</li>
-    </ul>
-  </div>
-
-  <div class="card">
-    <h2>📬 تواصل معي</h2>
-    <p>راسلني عبر GitHub:</p>
-    <a class="cta" href="https://github.com/mahboubayoub2012-code" target="_blank">
-      حسابي على GitHub
-    </a>
-  </div>
-
+<div class="cta">
+  <a href="mailto:example@gmail.com">📩 تواصل معي</a>
 </div>
 
 <footer>
-  © 2026 Ayoub Web Studio — جميع الحقوق محفوظة
+  © 2026 Ayoub – جميع الحقوق محفوظة
 </footer>
 
 </body>
