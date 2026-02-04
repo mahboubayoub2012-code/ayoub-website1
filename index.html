@@ -5,92 +5,112 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ayoub Website</title>
 
-  <!-- SEO -->
-  <meta name="description" content="موقع شخصي احترافي لتصميم مواقع HTML و CSS">
-  <meta name="keywords" content="تصميم مواقع, HTML, CSS, Ayoub">
-  <meta name="author" content="Ayoub Mahboub">
-
-  <!-- Font -->
+  <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&display=swap" rel="stylesheet">
 
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Tajawal', sans-serif;
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:'Tajawal', sans-serif;
     }
 
-    body {
-      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-      color: #fff;
-      line-height: 1.8;
+    body{
+      background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+      color:#fff;
+      line-height:1.8;
     }
 
-    header {
-      text-align: center;
-      padding: 50px 20px;
+    header{
+      text-align:center;
+      padding:50px 20px;
     }
 
-    header h1 {
-      font-size: 42px;
-      font-weight: 900;
-      margin-bottom: 10px;
+    /* LOGO */
+    .logo{
+      width:90px;
+      margin:0 auto 15px;
     }
 
-    header p {
-      font-size: 18px;
-      opacity: 0.9;
+    h1{
+      font-size:38px;
+      font-weight:900;
+      letter-spacing:2px;
     }
 
-    .container {
-      max-width: 1100px;
-      margin: auto;
-      padding: 20px;
+    header p{
+      font-size:18px;
+      opacity:.85;
+      margin-top:10px;
     }
 
-    .card {
-      background: rgba(255,255,255,0.08);
-      border-radius: 18px;
-      padding: 25px;
-      margin-bottom: 25px;
-      transition: 0.3s;
+    .container{
+      max-width:1100px;
+      margin:auto;
+      padding:20px;
     }
 
-    .card:hover {
-      transform: translateY(-6px);
-      background: rgba(255,255,255,0.12);
+    .card{
+      background:rgba(255,255,255,0.08);
+      border-radius:18px;
+      padding:30px;
+      margin-bottom:30px;
+      transition:.3s;
     }
 
-    .card h2 {
-      color: #00eaff;
-      margin-bottom: 15px;
-      font-size: 26px;
+    .card:hover{
+      transform:translateY(-6px);
+      background:rgba(255,255,255,0.12);
     }
 
-    .services ul {
-      list-style: none;
+    .card h2{
+      color:#00eaff;
+      margin-bottom:15px;
+      font-size:26px;
     }
 
-    .services li {
-      padding: 8px 0;
-      font-size: 18px;
+    .services ul{
+      list-style:none;
     }
 
-    .contact a {
-      color: #00eaff;
-      text-decoration: none;
+    .services li{
+      padding:10px 0;
+      border-bottom:1px solid rgba(255,255,255,.2);
+      font-size:18px;
     }
 
-    .contact a:hover {
-      text-decoration: underline;
+    .services li:last-child{
+      border:none;
     }
 
-    footer {
-      text-align: center;
-      padding: 20px;
-      font-size: 14px;
-      opacity: 0.7;
+    .cta{
+      text-align:center;
+      margin:50px 0;
+    }
+
+    .cta a{
+      display:inline-block;
+      background:#00eaff;
+      color:#000;
+      padding:15px 35px;
+      border-radius:35px;
+      text-decoration:none;
+      font-size:20px;
+      font-weight:700;
+      transition:.3s;
+    }
+
+    .cta a:hover{
+      background:#fff;
+      transform:scale(1.05);
+    }
+
+    footer{
+      text-align:center;
+      padding:25px;
+      font-size:14px;
+      opacity:.7;
     }
   </style>
 </head>
@@ -98,59 +118,53 @@
 <body>
 
   <header>
+    <!-- LOGO SVG -->
+    <svg class="logo" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="50" cy="50" r="45" stroke="#00eaff" stroke-width="6"/>
+      <path d="M35 65 L50 35 L65 65 Z" fill="#00eaff"/>
+    </svg>
+
     <h1>Ayoub Website</h1>
-    <p>موقع شخصي احترافي – تصميم عصري وقوي</p>
+    <p>موقع احترافي لتصميم مواقع HTML & CSS</p>
   </header>
 
   <div class="container">
 
     <div class="card">
-      <h2>👋 مرحبًا</h2>
+      <h2>👋 مرحباً</h2>
       <p>
-        هذا موقع شخصي احترافي لعرض الخدمات والأعمال
-        بطريقة بسيطة وأنيقة ومتجاوبة مع جميع الأجهزة.
+        أنا أيوب، مطوّر مواقع ويب أقدّم تصاميم عصرية وسريعة باستعمال
+        HTML و CSS مع واجهات جذابة ومتجاوبة مع جميع الشاشات.
       </p>
     </div>
 
     <div class="card services">
-      <h2>💼 الخدمات</h2>
+      <h2>🛠️ خدماتي</h2>
       <ul>
-        <li>✔️ تصميم مواقع HTML / CSS</li>
-        <li>✔️ مواقع شخصية وتجارية</li>
-        <li>✔️ تصميم عصري واحترافي</li>
-        <li>✔️ متوافق مع الهاتف والكمبيوتر</li>
+        <li>✔️ تصميم مواقع ثابتة احترافية</li>
+        <li>✔️ صفحات هبوط للزبائن</li>
+        <li>✔️ مواقع شخصية / أعمال</li>
+        <li>✔️ تصميم متجاوب (هاتف – حاسوب)</li>
       </ul>
     </div>
 
     <div class="card">
-      <h2>🚀 لماذا تختارني؟</h2>
+      <h2>✨ لماذا تختارني؟</h2>
       <p>
-        أقدّم مواقع خفيفة وسريعة، مهيأة لمحركات البحث،
-        وتعمل بدون مشاكل على Firefox و Chrome.
+        تصميم أنيق، سرعة تحميل، كود منظم، ومظهر احترافي يعطي قيمة
+        لمشروعك أو عملك.
       </p>
     </div>
 
-    <div class="card contact">
-      <h2>📞 تواصل معي</h2>
-      <p>📧 الإيميل:
-        <a href="mailto:mahboubayoub2012@gmail.com">
-          mahboubayoub2012@gmail.com
-        </a>
-      </p>
-      <p>💻 GitHub:
-        <a href="https://github.com/mahboubayoub2012-code" target="_blank">
-          github.com/mahboubayoub2012-code
-        </a>
-      </p>
+    <div class="cta">
+      <a href="#">ابدأ مشروعك الآن</a>
     </div>
 
   </div>
 
   <footer>
-    © 2026 – Ayoub Mahboub | All Rights Reserved
+    © 2026 – Ayoub Website | All Rights Reserved
   </footer>
 
 </body>
 </html>
-
-
