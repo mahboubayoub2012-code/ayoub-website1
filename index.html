@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ayoub Website</title>
 
-  <!-- Google Font -->
+  <!-- خط -->
   <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&display=swap" rel="stylesheet">
 
   <style>
@@ -13,7 +13,7 @@
       margin:0;
       padding:0;
       box-sizing:border-box;
-      font-family:'Tajawal', sans-serif;
+      font-family:'Tajawal',sans-serif;
     }
 
     body{
@@ -27,22 +27,19 @@
       padding:50px 20px;
     }
 
-    /* LOGO */
     .logo{
-      width:90px;
-      margin:0 auto 15px;
+      font-size:50px;
+      margin-bottom:10px;
     }
 
-    h1{
+    header h1{
       font-size:38px;
       font-weight:900;
-      letter-spacing:2px;
     }
 
     header p{
+      opacity:0.9;
       font-size:18px;
-      opacity:.85;
-      margin-top:10px;
     }
 
     .container{
@@ -53,118 +50,96 @@
 
     .card{
       background:rgba(255,255,255,0.08);
-      border-radius:18px;
+      border-radius:16px;
       padding:30px;
-      margin-bottom:30px;
-      transition:.3s;
+      margin-bottom:25px;
+      transition:0.3s;
     }
 
     .card:hover{
       transform:translateY(-6px);
-      background:rgba(255,255,255,0.12);
+      background:rgba(255,255,255,0.13);
     }
 
     .card h2{
       color:#00eaff;
       margin-bottom:15px;
-      font-size:26px;
     }
 
-    .services ul{
+    ul{
       list-style:none;
     }
 
-    .services li{
-      padding:10px 0;
-      border-bottom:1px solid rgba(255,255,255,.2);
+    ul li{
+      margin-bottom:10px;
       font-size:18px;
     }
 
-    .services li:last-child{
-      border:none;
-    }
-
     .cta{
-      text-align:center;
-      margin:50px 0;
-    }
-
-    .cta a{
       display:inline-block;
+      margin-top:15px;
+      padding:14px 30px;
       background:#00eaff;
       color:#000;
-      padding:15px 35px;
-      border-radius:35px;
-      text-decoration:none;
-      font-size:20px;
+      border-radius:30px;
       font-weight:700;
-      transition:.3s;
+      text-decoration:none;
+      transition:0.3s;
     }
 
-    .cta a:hover{
+    .cta:hover{
       background:#fff;
-      transform:scale(1.05);
     }
 
     footer{
       text-align:center;
       padding:25px;
       font-size:14px;
-      opacity:.7;
+      opacity:0.7;
     }
   </style>
 </head>
 
 <body>
 
-  <header>
-    <!-- LOGO SVG -->
-    <svg class="logo" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="50" cy="50" r="45" stroke="#00eaff" stroke-width="6"/>
-      <path d="M35 65 L50 35 L65 65 Z" fill="#00eaff"/>
-    </svg>
+<header>
+  <div class="logo">🚀</div>
+  <h1>Ayoub Website</h1>
+  <p>موقع احترافي لتصميم مواقع HTML & CSS</p>
+</header>
 
-    <h1>Ayoub Website</h1>
-    <p>موقع احترافي لتصميم مواقع HTML & CSS</p>
-  </header>
+<div class="container">
 
-  <div class="container">
-
-    <div class="card">
-      <h2>👋 مرحباً</h2>
-      <p>
-        أنا أيوب، مطوّر مواقع ويب أقدّم تصاميم عصرية وسريعة باستعمال
-        HTML و CSS مع واجهات جذابة ومتجاوبة مع جميع الشاشات.
-      </p>
-    </div>
-
-    <div class="card services">
-      <h2>🛠️ خدماتي</h2>
-      <ul>
-        <li>✔️ تصميم مواقع ثابتة احترافية</li>
-        <li>✔️ صفحات هبوط للزبائن</li>
-        <li>✔️ مواقع شخصية / أعمال</li>
-        <li>✔️ تصميم متجاوب (هاتف – حاسوب)</li>
-      </ul>
-    </div>
-
-    <div class="card">
-      <h2>✨ لماذا تختارني؟</h2>
-      <p>
-        تصميم أنيق، سرعة تحميل، كود منظم، ومظهر احترافي يعطي قيمة
-        لمشروعك أو عملك.
-      </p>
-    </div>
-
-    <div class="cta">
-      <a href="#">ابدأ مشروعك الآن</a>
-    </div>
-
+  <div class="card">
+    <h2>👋 مرحباً</h2>
+    <p>
+      أنا أيوب، مصمم مواقع ويب عصرية وسريعة باستعمال HTML و CSS.
+      نركّز على التصميم النظيف، السرعة، وتجربة المستخدم.
+    </p>
   </div>
 
-  <footer>
-    © 2026 – Ayoub Website | All Rights Reserved
-  </footer>
+  <div class="card">
+    <h2>🛠️ خدماتي</h2>
+    <ul>
+      <li>✔️ تصميم مواقع ثابتة احترافية</li>
+      <li>✔️ صفحات شخصية و Landing Pages</li>
+      <li>✔️ تحسين السرعة والتجاوب</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>📩 تواصل معي</h2>
+    <p>تقدر تتواصل معي عبر GitHub:</p>
+    <a class="cta" href="https://github.com/mahboubayoub2012-code" target="_blank">
+      حسابي على GitHub
+    </a>
+  </div>
+
+</div>
+
+<footer>
+  © 2026 - Ayoub Website | All Rights Reserved
+</footer>
 
 </body>
 </html>
