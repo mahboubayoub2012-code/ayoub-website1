@@ -1,98 +1,136 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Ayoub | موقعي الشخصي</title>
+<title>Ayoub Website</title>
 
-  <meta name="description" content="موقع أيوب الشخصي، مهتم بالأردوينو، الأمن السيبراني، والتكنولوجيا.">
-  <meta name="author" content="Ayoub">
+<meta name="description" content="موقع Ayoub للتقنية، Arduino، الأمن السيبراني وخدمات الويب">
+<meta name="keywords" content="Arduino, Cyber Security, Ayoub, Website">
+<meta name="author" content="Ayoub Mahboub">
 
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-      color: #ffffff;
-      text-align: center;
-    }
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
 
-    header {
-      padding: 40px 20px;
-    }
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Tajawal',sans-serif;
+}
 
-    header h1 {
-      font-size: 2.5em;
-      margin-bottom: 10px;
-    }
+body{
+  background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+  color:#fff;
+  line-height:1.8;
+}
 
-    header p {
-      font-size: 1.1em;
-      opacity: 0.9;
-    }
+header{
+  background:#00000055;
+  padding:20px;
+  text-align:center;
+}
 
-    section {
-      padding: 40px 20px;
-    }
+header img{
+  width:120px;
+  margin-bottom:10px;
+}
 
-    .card {
-      max-width: 500px;
-      margin: auto;
-      background: rgba(255,255,255,0.08);
-      padding: 25px;
-      border-radius: 15px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-    }
+header h1{
+  font-size:32px;
+}
 
-    a {
-      color: #00eaff;
-      text-decoration: none;
-      font-weight: bold;
-    }
+section{
+  padding:40px 20px;
+  max-width:900px;
+  margin:auto;
+}
 
-    a:hover {
-      text-decoration: underline;
-    }
+.card{
+  background:#ffffff10;
+  padding:25px;
+  border-radius:15px;
+  margin-bottom:30px;
+}
 
-    footer {
-      padding: 20px;
-      font-size: 0.9em;
-      opacity: 0.7;
-    }
-  </style>
+.card h2{
+  color:#00ffcc;
+  margin-bottom:15px;
+}
+
+.skills span{
+  display:inline-block;
+  background:#00ffcc;
+  color:#000;
+  padding:8px 15px;
+  border-radius:20px;
+  margin:5px;
+  font-size:14px;
+}
+
+.contact a{
+  display:block;
+  color:#00ffcc;
+  text-decoration:none;
+  margin:10px 0;
+  font-size:18px;
+}
+
+footer{
+  background:#000000aa;
+  text-align:center;
+  padding:15px;
+  font-size:14px;
+}
+</style>
 </head>
 
 <body>
 
-  <header>
-    <h1>👋 مرحبًا، أنا أيوب</h1>
-    <p>مهتم بالأردوينو، الأمن السيبراني، والتكنولوجيا</p>
-  </header>
+<header>
+  <!-- اللوجو -->
+  <img src="logo.png" alt="Ayoub Logo">
+  <h1>Ayoub Mahboub</h1>
+  <p>Arduino | Cyber Security | Web</p>
+</header>
 
-  <section>
-    <div class="card">
-      <h2>📞 تواصل معي</h2>
+<section>
 
-      <p>
-        📧 Email:<br>
-        <a href="mailto:mahboubayoub2012@gmail.com">
-          mahboubayoub2012@gmail.com
-        </a>
-      </p>
+  <div class="card">
+    <h2>👋 من أنا</h2>
+    <p>
+      أنا Ayoub، عندي 13 سنة، نحب الإلكترونيات،
+      Arduino وحساساته، عندي شغف بالأمن السيبراني
+      وكرة السلة.
+    </p>
+  </div>
 
-      <p>
-        📸 Instagram:<br>
-        <a href="https://instagram.com/USERNAME" target="_blank">
-          @USERNAME
-        </a>
-      </p>
+  <div class="card">
+    <h2>🛠 مهاراتي</h2>
+    <div class="skills">
+      <span>Arduino</span>
+      <span>Sensors</span>
+      <span>Cyber Security</span>
+      <span>Kali Linux</span>
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>PC Assembly</span>
     </div>
-  </section>
+  </div>
 
-  <footer>
-    © 2026 Ayoub – All rights reserved
-  </footer>
+  <div class="card contact">
+    <h2>📞 تواصل معي</h2>
+    <a href="mailto:mahboubayoub2012@gmail.com">📧 mahboubayoub2012@gmail.com</a>
+    <a href="https://wa.me/213000000000">📱 واتساب</a>
+    <a href="https://instagram.com/">📸 إنستغرام</a>
+  </div>
+
+</section>
+
+<footer>
+  © 2026 Ayoub Website — GitHub Pages
+</footer>
 
 </body>
 </html>
