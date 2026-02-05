@@ -1,154 +1,98 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="ar">
 <head>
-  <meta name="google-site-verification" content="bpFE1OMHI6ev2njfHdx8ZJxl5vXJGE5OgVmx5SYJ8gQ" />
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ayoub Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- Google Font -->
-<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&display=swap" rel="stylesheet">
+  <title>Ayoub | موقعي الشخصي</title>
 
-<style>
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-  font-family:'Tajawal', sans-serif;
-}
+  <meta name="description" content="موقع أيوب الشخصي، مهتم بالأردوينو، الأمن السيبراني، والتكنولوجيا.">
+  <meta name="author" content="Ayoub">
 
-body{
-  background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
-  color:#fff;
-  line-height:1.8;
-}
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #ffffff;
+      text-align: center;
+    }
 
-/* Header */
-header{
-  padding:50px 20px;
-  text-align:center;
-}
+    header {
+      padding: 40px 20px;
+    }
 
-.logo{
-  font-size:50px;
-}
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
 
-header h1{
-  font-size:36px;
-  font-weight:900;
-  margin-top:10px;
-}
+    header p {
+      font-size: 1.1em;
+      opacity: 0.9;
+    }
 
-header p{
-  opacity:.9;
-  margin-top:10px;
-}
+    section {
+      padding: 40px 20px;
+    }
 
-/* Container */
-.container{
-  max-width:1100px;
-  margin:auto;
-  padding:20px;
-}
+    .card {
+      max-width: 500px;
+      margin: auto;
+      background: rgba(255,255,255,0.08);
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
 
-/* Cards */
-.card{
-  background:rgba(255,255,255,0.08);
-  border-radius:18px;
-  padding:30px;
-  margin-bottom:30px;
-  transition:.3s;
-}
+    a {
+      color: #00eaff;
+      text-decoration: none;
+      font-weight: bold;
+    }
 
-.card:hover{
-  transform:translateY(-6px);
-  background:rgba(255,255,255,0.12);
-}
+    a:hover {
+      text-decoration: underline;
+    }
 
-.card h2{
-  color:#00eaff;
-  margin-bottom:15px;
-}
-
-.card ul{
-  list-style:none;
-}
-
-.card ul li{
-  padding:8px 0;
-  font-size:18px;
-}
-
-/* CTA */
-.cta{
-  text-align:center;
-  margin:50px 0;
-}
-
-.cta a{
-  display:inline-block;
-  padding:16px 35px;
-  background:#00eaff;
-  color:#000;
-  border-radius:40px;
-  text-decoration:none;
-  font-size:18px;
-  font-weight:700;
-  transition:.3s;
-}
-
-.cta a:hover{
-  background:#fff;
-}
-
-/* Footer */
-footer{
-  text-align:center;
-  padding:25px;
-  opacity:.7;
-  font-size:14px;
-}
-</style>
+    footer {
+      padding: 20px;
+      font-size: 0.9em;
+      opacity: 0.7;
+    }
+  </style>
 </head>
 
 <body>
 
-<header>
-  <div class="logo">🚀</div>
-  <h1>Ayoub Website</h1>
-  <p>موقع احترافي لتصميم مواقع HTML & CSS</p>
-</header>
+  <header>
+    <h1>👋 مرحبًا، أنا أيوب</h1>
+    <p>مهتم بالأردوينو، الأمن السيبراني، والتكنولوجيا</p>
+  </header>
 
-<div class="container">
+  <section>
+    <div class="card">
+      <h2>📞 تواصل معي</h2>
 
-  <div class="card">
-    <h2>💼 خدماتي</h2>
-    <ul>
-      <li>✔ تصميم مواقع احترافية</li>
-      <li>✔ مواقع شخصية وتجارية</li>
-      <li>✔ تصميم سريع ومتجاوب</li>
-      <li>✔ متوافق مع جميع المتصفحات</li>
-    </ul>
-  </div>
+      <p>
+        📧 Email:<br>
+        <a href="mailto:mahboubayoub2012@gmail.com">
+          mahboubayoub2012@gmail.com
+        </a>
+      </p>
 
-  <div class="card">
-    <h2>📧 تواصل معي</h2>
-    <p>راسلني مباشرة عبر الإيميل:</p>
-    <p style="font-size:20px;font-weight:700;color:#00eaff;">
-      mahboubayoub2012@gmail.com
-    </p>
-  </div>
+      <p>
+        📸 Instagram:<br>
+        <a href="https://instagram.com/USERNAME" target="_blank">
+          @USERNAME
+        </a>
+      </p>
+    </div>
+  </section>
 
-  <div class="cta">
-  <a href="mailto:mahboubayoub2012@gmail.com">📨 راسلني الآن</a>
-    mahboubayoub2012@gmail.com
-  </div>
-
-</div>
-
-<footer>
-  © 2026 Ayoub — جميع الحقوق محفوظة
-</footer>
+  <footer>
+    © 2026 Ayoub – All rights reserved
+  </footer>
 
 </body>
 </html>
