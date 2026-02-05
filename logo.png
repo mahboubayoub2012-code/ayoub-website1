@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>Ayoub Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Search Console -->
+  <meta name="google-site-verification" content="PUT_YOUR_CODE_HERE" />
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:'Tajawal', sans-serif;
+    }
+
+    body{
+      background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+      color:white;
+      min-height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+    }
+
+    .container{
+      background:rgba(255,255,255,0.08);
+      padding:30px;
+      border-radius:15px;
+      width:90%;
+      max-width:500px;
+      text-align:center;
+      box-shadow:0 0 20px rgba(0,0,0,0.4);
+    }
+
+    /* LOGO */
+    .logo{
+      font-size:42px;
+      font-weight:700;
+      color:#00e5ff;
+      margin-bottom:10px;
+    }
+
+    h1{
+      margin-bottom:10px;
+    }
+
+    p{
+      font-size:15px;
+      opacity:0.9;
+      margin-bottom:25px;
+    }
+
+    .contact{
+      text-align:right;
+    }
+
+    .contact h2{
+      margin-bottom:15px;
+      color:#00e5ff;
+    }
+
+    .contact a{
+      display:block;
+      background:rgba(255,255,255,0.1);
+      margin-bottom:10px;
+      padding:12px;
+      border-radius:8px;
+      color:white;
+      text-decoration:none;
+      transition:0.3s;
+    }
+
+    .contact a:hover{
+      background:#00e5ff;
+      color:black;
+    }
+
+    footer{
+      margin-top:20px;
+      font-size:13px;
+      opacity:0.7;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- LOGO -->
+    <div class="logo">AYOUB</div>
+
+    <h1>Ayoub Mahboub</h1>
+    <p>
+      مهتم بالأردوينو 🤖 | الأمن السيبراني 🔐  
+      <br>
+      شغوف بالتقنية وكرة السلة 🏀
+    </p>
+
+    <div class="contact">
+      <h2>📬 تواصل معي</h2>
+
+      <a href="mailto:mahboubayoub2012@gmail.com">
+        📧 mahboubayoub2012@gmail.com
+      </a>
+
+      <a href="https://www.instagram.com/YOUR_INSTAGRAM" target="_blank">
+        📸 Instagram
+      </a>
+
+      <a href="https://wa.me/213XXXXXXXXX" target="_blank">
+        📱 WhatsApp
+      </a>
+    </div>
+
+    <footer>
+      © 2026 Ayoub Website
+    </footer>
+
+  </div>
+
+</body>
+</html>
